@@ -1,0 +1,16 @@
+{
+  "name": "ct-techpro-assistant",
+  "version": "1.0.0",
+  "description": "CertainTeed Tech-Pro Assistant - AI-powered roofing technical support",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step required'",
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.24.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
