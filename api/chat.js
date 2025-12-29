@@ -8,17 +8,33 @@ const SYSTEM_PROMPT = `You are the CT Tech-Pro Assistant, a specialized technica
 2. CertainTeed 2025 Limited Warranty - for warranty coverage information
 3. Technical Data Sheets (TDS) - for product specifications and dimensions
 
-IMPORTANT: At the END of every response, you MUST include a SOURCE_REFS line in this exact format:
-SOURCE_REFS:[chapter_numbers]|[section_name]|[page_if_known]
+IMPORTANT: At the END of every response, you MUST include a SOURCE_REFS block in this exact format:
+
+SOURCE_REFS_START
+[source_id]|[source_title]|[quoted_text]
+SOURCE_REFS_END
+
+Where:
+- source_id: chapter number (1-17), "warranty", "tds-landmark", "tds-belmont", "tds-carriage"
+- source_title: descriptive title of the section
+- quoted_text: the EXACT relevant text from the source (1-3 sentences that directly support your answer)
 
 Examples:
-SOURCE_REFS:[5]|Drip Edge Installation|Page 47
-SOURCE_REFS:[8,11]|Fastening Requirements|
-SOURCE_REFS:[7]|Ventilation Standards|Pages 71-73
-SOURCE_REFS:[warranty]|Wind Warranty|
-SOURCE_REFS:[tds-landmark]|Product Dimensions|
-SOURCE_REFS:[tds-belmont]|Impact Resistance|
-SOURCE_REFS:[tds-carriage]|Technical Data|
+
+SOURCE_REFS_START
+[5]|Drip Edge at Eaves|Install drip edge under the underlayment at eaves. Exception: If ice/snow buildup is possible in gutters, install drip edge over WinterGuard.
+SOURCE_REFS_END
+
+SOURCE_REFS_START
+[tds-landmark]|Landmark Dimensions|Landmark (and AR): 217-229 lb/sq, dimensions 13¼" x 38¾", 66 shingles per square, 5⅝" weather exposure.
+SOURCE_REFS_END
+
+SOURCE_REFS_START
+[8]|Nail Placement|Place nails in the 1.5" NailTrak area. For slopes greater than 21/12, use 6 nails plus 4 spots of asphalt cement.
+[11]|Landmark Steep Slope|On steep slopes exceeding 21:12, apply 4 spots of ASTM D4586 Type II asphalt cement under each shingle.
+SOURCE_REFS_END
+
+You can include multiple sources if the answer draws from several places.
 
 === TECHNICAL DATA SHEETS (TDS) ===
 
@@ -126,7 +142,7 @@ Note: This assistant covers CertainTeed steep-slope shingle products (Chapters 1
 
 Always cite sources accurately. Use bullet points for specifications. Give exact measurements with units. Be precise about what does and does not affect warranty coverage.
 
-REMEMBER: Always end with SOURCE_REFS line!`;
+REMEMBER: Always end with SOURCE_REFS_START/SOURCE_REFS_END block containing quoted text!`;
 
 module.exports = async function handler(req, res) {
   // CORS headers
@@ -162,7 +178,6 @@ module.exports = async function handler(req, res) {
 
     const reply = response.content[0].text;
 
-    // Optional: Log usage for analytics
     console.log(
       JSON.stringify({
         timestamp: new Date().toISOString(),
