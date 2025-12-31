@@ -4,332 +4,120 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CT Tech-Pro Hub | CertainTeed Technical Support</title>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
-        :root {
-            --ct-blue: #005EB8;
-            --ct-blue-dark: #004A91;
-            --ct-charcoal: #2D2D2D;
-            --ct-slate: #4A4A4A;
-            --ct-light: #F5F5F5;
-            --ct-white: #FFFFFF;
-            --ct-accent: #E8E8E8;
-            --ct-success: #28A745;
-            --gradient-blue: linear-gradient(135deg, #005EB8 0%, #004A91 100%);
-            --shadow-soft: 0 4px 20px rgba(0,0,0,0.1);
-            --shadow-hover: 0 8px 30px rgba(0,0,0,0.15);
-            --radius: 16px;
-        }
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { 
-            font-family: 'Source Sans 3', sans-serif; 
-            background: linear-gradient(135deg, #1a1a1a 0%, #2D2D2D 100%);
-            min-height: 100vh; 
-            display: flex; 
-            flex-direction: column;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; 
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            color: white;
         }
-        
-        header { 
-            background: var(--ct-blue); 
-            padding: 12px 20px; 
+        header {
             text-align: center;
+            padding: 3rem 1rem 2rem;
         }
-        header span { color: white; font-size: 13px; font-weight: 500; letter-spacing: 1px; }
-        
-        .hero {
-            padding: 60px 20px 40px;
-            text-align: center;
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
         }
-        .logo-icon { 
-            width: 80px; 
-            height: 80px; 
-            background: var(--gradient-blue); 
-            border-radius: 16px; 
-            display: flex; 
-            align-items: center; 
-            justify-content: center;
-            margin: 0 auto 24px;
-            box-shadow: 0 8px 24px rgba(0,94,184,0.4);
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.8;
         }
-        .logo-icon svg { width: 44px; height: 44px; fill: white; }
-        .hero h1 { 
-            font-family: 'Bebas Neue', sans-serif; 
-            font-size: 48px; 
-            color: white; 
-            letter-spacing: 3px;
-            margin-bottom: 8px;
-        }
-        .hero p { 
-            color: rgba(255,255,255,0.7); 
-            font-size: 18px;
-            max-width: 600px;
-            margin: 0 auto;
-        }
-        .beta-badge { 
-            background: #FF6B35; 
-            color: white; 
-            padding: 4px 12px; 
-            border-radius: 6px; 
-            font-size: 12px; 
-            font-weight: 700; 
-            margin-left: 12px;
-            vertical-align: middle;
-        }
-
-        main { 
-            flex: 1; 
-            padding: 20px 20px 60px;
+        .container {
             max-width: 1200px;
             margin: 0 auto;
-            width: 100%;
+            padding: 2rem 1rem;
         }
-        
-        .section-title {
-            text-align: center;
-            margin-bottom: 40px;
-        }
-        .section-title h2 {
-            font-family: 'Bebas Neue', sans-serif;
-            font-size: 28px;
-            color: white;
-            letter-spacing: 2px;
-        }
-        .section-title p {
-            color: rgba(255,255,255,0.6);
-            font-size: 15px;
-        }
-
-        .cards-container {
+        .cards {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-            gap: 24px;
-            margin-bottom: 40px;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
         }
-
-        .product-card {
-            background: white;
-            border-radius: var(--radius);
-            overflow: hidden;
-            box-shadow: var(--shadow-soft);
-            transition: all 0.3s ease;
-            cursor: pointer;
+        .card {
+            background: rgba(255,255,255,0.1);
+            border-radius: 16px;
+            padding: 2rem;
             text-decoration: none;
+            color: white;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
             display: block;
         }
-        .product-card:hover {
-            transform: translateY(-8px);
-            box-shadow: var(--shadow-hover);
+        .card:hover {
+            transform: translateY(-5px);
+            background: rgba(255,255,255,0.15);
         }
-        .product-card.disabled {
-            opacity: 0.6;
-            cursor: not-allowed;
-        }
-        .product-card.disabled:hover {
-            transform: none;
-        }
-
-        .card-header {
-            padding: 30px;
-            text-align: center;
-            position: relative;
-        }
-        .card-header.steep-slope { background: linear-gradient(135deg, #D32F2F 0%, #B71C1C 100%); }
-        .card-header.low-slope { background: linear-gradient(135deg, #1976D2 0%, #0D47A1 100%); }
-        .card-header.siding { background: linear-gradient(135deg, #388E3C 0%, #1B5E20 100%); }
-
+        .card.steep { border-color: #c62828; }
+        .card.steep:hover { box-shadow: 0 10px 40px rgba(198,40,40,0.3); }
+        .card.lowslope { border-color: #1565c0; }
+        .card.lowslope:hover { box-shadow: 0 10px 40px rgba(21,101,192,0.3); }
+        .card.siding { border-color: #2e7d32; }
+        .card.siding:hover { box-shadow: 0 10px 40px rgba(46,125,50,0.3); }
         .card-icon {
-            width: 70px;
-            height: 70px;
-            background: rgba(255,255,255,0.2);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0 auto 16px;
+            font-size: 3rem;
+            margin-bottom: 1rem;
         }
-        .card-icon svg { width: 36px; height: 36px; fill: white; }
-
-        .card-header h3 {
-            font-family: 'Bebas Neue', sans-serif;
-            font-size: 26px;
-            color: white;
-            letter-spacing: 2px;
-            margin-bottom: 4px;
+        .card h2 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
         }
-        .card-header span {
-            color: rgba(255,255,255,0.85);
-            font-size: 13px;
+        .card p {
+            opacity: 0.8;
+            font-size: 0.95rem;
+            line-height: 1.5;
         }
-
-        .coming-soon-badge {
-            position: absolute;
-            top: 16px;
-            right: 16px;
-            background: rgba(0,0,0,0.3);
-            color: white;
-            padding: 4px 10px;
-            border-radius: 12px;
-            font-size: 11px;
+        .card .tag {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
             font-weight: 600;
         }
-
-        .card-body {
-            padding: 24px 30px 30px;
-        }
-        .card-body p {
-            color: var(--ct-slate);
-            font-size: 14px;
-            line-height: 1.6;
-            margin-bottom: 16px;
-        }
-        .product-list {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-        }
-        .product-tag {
-            background: var(--ct-light);
-            color: var(--ct-slate);
-            padding: 6px 12px;
-            border-radius: 20px;
-            font-size: 12px;
-            font-weight: 500;
-        }
-
-        .card-footer {
-            padding: 0 30px 24px;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-        .status-dot {
-            width: 10px;
-            height: 10px;
-            border-radius: 50%;
-            background: var(--ct-success);
-        }
-        .status-dot.coming { background: #FFC107; }
-        .card-footer span {
-            font-size: 13px;
-            color: var(--ct-slate);
-            font-weight: 500;
-        }
-
-        footer { 
-            background: var(--ct-charcoal); 
-            padding: 20px; 
+        .card.steep .tag { background: #c62828; }
+        .card.lowslope .tag { background: #1565c0; }
+        .card.siding .tag { background: #2e7d32; }
+        footer {
             text-align: center;
-            border-top: 1px solid rgba(255,255,255,0.1);
+            padding: 2rem;
+            opacity: 0.7;
+            font-size: 0.9rem;
         }
-        footer p { color: rgba(255,255,255,0.5); font-size: 12px; }
-        footer a { color: var(--ct-blue); }
-
-        @media (max-width: 768px) {
-            .hero h1 { font-size: 36px; }
-            .cards-container { grid-template-columns: 1fr; }
-        }
+        footer a { color: white; }
     </style>
 </head>
 <body>
     <header>
-        <span>CERTAINTEED TECHNICAL SUPPORT HUB</span>
+        <h1>🏗️ CT Tech-Pro Hub</h1>
+        <p>CertainTeed Technical Support Assistant</p>
     </header>
-
-    <div class="hero">
-        <div class="logo-icon">
-            <svg viewBox="0 0 24 24"><path d="M12 2L2 7v10l10 5 10-5V7L12 2zm0 2.18l6.9 3.45L12 11.08 5.1 7.63 12 4.18zM4 8.9l7 3.5v7.7l-7-3.5V8.9zm9 11.2v-7.7l7-3.5v7.7l-7 3.5z"/></svg>
+    <div class="container">
+        <div class="cards">
+            <a href="shingles.html" class="card steep">
+                <div class="card-icon">🏠</div>
+                <h2>Steep Slope Roofing</h2>
+                <p>Residential shingles, hip & ridge, starter strips, underlayments, and accessories. Installation specs and warranty guidance.</p>
+                <span class="tag">ACTIVE</span>
+            </a>
+            <a href="lowslope.html" class="card lowslope">
+                <div class="card-icon">🏢</div>
+                <h2>Low-Slope Roofing</h2>
+                <p>Flintlastic SA, modified bitumen, BUR systems, FlintBoard insulation, SMARTCOAT restoration. Commercial specs.</p>
+                <span class="tag">ACTIVE</span>
+            </a>
+            <a href="siding.html" class="card siding">
+                <div class="card-icon">🏡</div>
+                <h2>Siding Products</h2>
+                <p>Monogram vinyl, Cedar Impressions polymer shakes, CERTAplank, Board & Batten. Colors, specs, warranties.</p>
+                <span class="tag">ACTIVE</span>
+            </a>
         </div>
-        <h1>CT TECH-PRO HUB <span class="beta-badge">BETA</span></h1>
-        <p>AI-powered technical support for CertainTeed roofing and siding products. Select your product category below.</p>
     </div>
-
-    <main>
-        <div class="section-title">
-            <h2>SELECT YOUR PRODUCT CATEGORY</h2>
-            <p>Each assistant is specialized with product-specific knowledge</p>
-        </div>
-
-        <div class="cards-container">
-            <!-- Steep Slope Roofing -->
-            <a href="shingles.html" class="product-card">
-                <div class="card-header steep-slope">
-                    <div class="card-icon">
-                        <svg viewBox="0 0 24 24"><path d="M12 3L2 12h3v9h14v-9h3L12 3zm0 2.84L18 11v8H6v-8l6-5.16z"/></svg>
-                    </div>
-                    <h3>STEEP SLOPE ROOFING</h3>
-                    <span>Shingles & Accessories</span>
-                </div>
-                <div class="card-body">
-                    <p>Technical support for asphalt shingles, hip & ridge, starter strips, underlayments, and ventilation products.</p>
-                    <div class="product-list">
-                        <span class="product-tag">Landmark Series</span>
-                        <span class="product-tag">Presidential</span>
-                        <span class="product-tag">Grand Manor</span>
-                        <span class="product-tag">NorthGate</span>
-                        <span class="product-tag">WinterGuard</span>
-                        <span class="product-tag">Vycor</span>
-                    </div>
-                </div>
-                <div class="card-footer">
-                    <span class="status-dot"></span>
-                    <span>Available Now</span>
-                </div>
-            </a>
-
-            <!-- Low Slope Roofing -->
-            <div class="product-card disabled">
-                <div class="card-header low-slope">
-                    <span class="coming-soon-badge">COMING SOON</span>
-                    <div class="card-icon">
-                        <svg viewBox="0 0 24 24"><path d="M19 12h-2v3h-3v2h5v-5zM7 9h3V7H5v5h2V9zm14-6H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16.01H3V4.99h18v14.02z"/></svg>
-                    </div>
-                    <h3>LOW SLOPE ROOFING</h3>
-                    <span>Modified Bitumen & Flat Roof</span>
-                </div>
-                <div class="card-body">
-                    <p>Technical support for Flintlastic SA, Flintboard, SMARTCOAT systems, and low-slope roofing applications.</p>
-                    <div class="product-list">
-                        <span class="product-tag">Flintlastic SA</span>
-                        <span class="product-tag">Flintboard</span>
-                        <span class="product-tag">SMARTCOAT</span>
-                        <span class="product-tag">Modified Bitumen</span>
-                    </div>
-                </div>
-                <div class="card-footer">
-                    <span class="status-dot coming"></span>
-                    <span>Coming Soon</span>
-                </div>
-            </div>
-
-            <!-- Siding -->
-            <a href="siding.html" class="product-card">
-                <div class="card-header siding">
-                    <div class="card-icon">
-                        <svg viewBox="0 0 24 24"><path d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z"/></svg>
-                    </div>
-                    <h3>SIDING</h3>
-                    <span>Vinyl & Polymer Products</span>
-                </div>
-                <div class="card-body">
-                    <p>Technical support for vinyl siding, polymer shakes, Cedar Impressions, soffit, fascia, and trim accessories.</p>
-                    <div class="product-list">
-                        <span class="product-tag">Monogram</span>
-                        <span class="product-tag">Cedar Impressions</span>
-                        <span class="product-tag">CedarBoards</span>
-                        <span class="product-tag">Board & Batten</span>
-                        <span class="product-tag">Soffit</span>
-                    </div>
-                </div>
-                <div class="card-footer">
-                    <span class="status-dot"></span>
-                    <span>Available Now</span>
-                </div>
-            </a>
-        </div>
-    </main>
-
     <footer>
-        <p>CT Tech-Pro Hub · CertainTeed Technical Support · <a href="https://www.certainteed.com" target="_blank">certainteed.com</a> · 800-233-8990</p>
+        <p>CertainTeed LLC | 20 Moores Road, Malvern, PA 19355 | <a href="tel:800-233-8990">800-233-8990</a> | <a href="https://certainteed.com">certainteed.com</a></p>
     </footer>
 </body>
 </html>
