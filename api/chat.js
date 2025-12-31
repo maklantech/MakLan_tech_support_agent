@@ -16,7 +16,7 @@ SOURCE_REFS_START
 SOURCE_REFS_END
 
 Where:
-- source_id: chapter number (1-17), "warranty", "tds-landmark", "tds-belmont", "tds-carriage", "tds-climateflex", "tds-vycor", "tds-vycor-ht", "tds-vycor-select", "tds-vycor-ultra", or TIS number (e.g., "tis-107", "tis-119", "tis-151")
+- source_id: chapter number (1-17), "warranty-2025", "tds-landmark", "tds-belmont", "tds-carriage", "tds-climateflex", "tds-vycor", "tds-vycor-ht", "tds-vycor-select", "tds-vycor-ultra", or TIS number (e.g., "tis-107", "tis-119", "tis-151")
 - source_title: descriptive title of the section
 - quoted_text: the EXACT relevant text from the source (1-3 sentences that directly support your answer)
 
@@ -400,21 +400,185 @@ Note: Landmark series changed from "English" (12"x36") to "metric" (13¼"x38¾")
 
 CRITICAL WARRANTY CLARIFICATION:
 The CertainTeed Limited Warranty is a MANUFACTURING DEFECT warranty, NOT a workmanship warranty.
+
+IMPORTANT - APPLICATION DOES NOT VOID WARRANTY:
+- Deviations from recommended application instructions do NOT void CertainTeed's warranty against manufacturing defects
 - The warranty covers shingles that are "free from manufacturing defects"
-- Installation/application methods do NOT void the standard manufacturing defect warranty
-- The Limitations section excludes "damage caused by improper installation" - meaning CertainTeed won't cover damage CAUSED BY poor installation, but actual manufacturing defects are still covered
-- WIND WARRANTY specifically requires fastening per CertainTeed instructions - improper fastening voids wind blow-off coverage
+- CertainTeed won't cover damage CAUSED BY poor installation, but actual manufacturing defects are STILL covered regardless of installation method
+- Contractor (not CertainTeed) is responsible for issues related to appearance, performance, or durability resulting from deviation from instructions
+- Using wrong hip/ridge accessories does NOT void the manufacturing defect warranty
+- ONLY the WIND WARRANTY and 130mph UPGRADE have specific installation requirements
+
+WHAT VOIDS/REDUCES WARRANTY:
+- WIND WARRANTY: Requires fastening per CertainTeed instructions - improper fastening voids wind blow-off coverage only
+- 130MPH WIND UPGRADE: Requires specific accessories (see below)
 - VENTILATION: Inadequate ventilation reduces warranty to 10 years and eliminates SureStart protection
+- ALGAE WARRANTY (25-30 year): Requires CertainTeed AR hip/ridge accessories; without them, algae coverage limited to 10 years
 
-WARRANTY PERIODS (Table 1):
-- Grand Manor, Presidential Shake TL, Landmark TL, Carriage House, Belmont, Landmark Premium/PRO, NorthGate ClimateFlex, Highland Slate: Lifetime (individual owners), 50yr (other), 10yr SureStart, 110mph wind (130mph upgrade available)
-- Landmark, Landmark ClimateFlex: Lifetime (individual), 40yr (other), 10yr SureStart
-- XT-25: 25 years, 5yr SureStart, 60mph wind
+=== 2025 WARRANTY - TABLE 1 ===
 
-130MPH WIND WARRANTY UPGRADE requires ALL:
-- Clean deck (no roof-overs)
-- CertainTeed hip/ridge accessories (Shadow Ridge, Cedar Crest, Shangle Ridge, Mountain Ridge)
-- CertainTeed starter shingles at eaves AND rakes
+LIFETIME PRODUCTS A (50yr for Other Ownership, 10yr SureStart):
+- Grand Manor: Lifetime, 10yr SureStart, 110mph wind (130 upgrade), 30yr algae, 1/600 reduction
+- Presidential Shake TL: Lifetime, 10yr SureStart, 110mph wind (130 upgrade), 30yr algae, 1/600 reduction
+- Landmark TL: Lifetime, 10yr SureStart, 110mph wind (130 upgrade), 30yr algae, 1/600 reduction
+- Presidential Shake (& IR): Lifetime, 10yr SureStart, 110mph wind (130 upgrade), 30yr algae, 1/600 reduction
+- Carriage House: Lifetime, 10yr SureStart, 110mph wind (130 upgrade), 30yr algae, 1/600 reduction
+- Belmont (& IR): Lifetime, 10yr SureStart, 110mph wind (130 upgrade), 30yr algae, 1/600 reduction
+- Landmark Premium: Lifetime, 10yr SureStart, 110mph wind (130 upgrade), 30yr algae, 1/600 reduction
+- Landmark PRO: Lifetime, 10yr SureStart, 110mph wind (130 upgrade), 30yr algae, 1/600 reduction
+- NorthGate ClimateFlex: Lifetime, 10yr SureStart, 110mph wind (130 upgrade), 30yr algae, 1/600 reduction
+- Highland Slate: Lifetime, 10yr SureStart, 110mph wind (130 upgrade), 25yr algae, 1/600 reduction
+Note: LifetimeA products include tear-off, metal work, flashing, and disposal during SureStart period
+
+LIFETIME PRODUCTS B (40yr for Other Ownership, 5yr SureStart for Other Ownership):
+- Landmark ClimateFlex: Lifetime, 10yr SureStart, 110mph wind (130 upgrade), 25yr algae, 1/600 reduction
+- Landmark: Lifetime, 10yr SureStart, 110mph wind (130 upgrade), 25yr algae, 1/600 reduction
+- Patriot/Patriot XL: Lifetime, 10yr SureStart, 110mph wind (130 upgrade), 10yr algae max, 1/600 reduction
+Note: Patriot shingles - manufacturing defect must cause LEAKS to be covered after SureStart
+
+25 YEAR PRODUCTS:
+- XT25: 25yr warranty, 5yr SureStart, 60mph wind (90mph in Alaska), 10yr algae, 1/300 reduction
+
+INADEQUATELY VENTILATED DECKS:
+- 10 year warranty only, NO SureStart protection
+- Exception: If CertainTeed determines damage was caused exclusively by manufacturing defect unrelated to ventilation
+
+=== SURESTART PROTECTION ===
+
+SureStart covers during the early years (non-prorated):
+- 100% cost of replacement shingles
+- 100% cost of labor (based on Bluebook or RS Means data)
+- For LifetimeA products: Also covers tear-off, metal work, flashing, and disposal
+- For LifetimeB products: Does NOT cover tear-off, metal work, flashing, disposal (except with SureStart PLUS)
+
+SureStart Period by Product:
+- LifetimeA products: 10 years
+- LifetimeB products (individual owners): 10 years
+- LifetimeB products (Other Ownership): 5 years
+- XT25: 5 years
+
+BEYOND SURESTART (Prorated Period):
+- CertainTeed pays: Cost of replacement shingles minus reduction figure per month
+- Labor, tear-off, disposal NOT covered
+- Reduction figures: 1/600 per month (Lifetime products), 1/300 per month (XT25)
+- At 40 years, Lifetime products reduction stops at 480/600 (20% of value remains)
+
+=== SURESTART PLUS EXTENDED WARRANTY ===
+
+Requires: CertainTeed Credentialed Contractor + Integrity Roof System + Registration
+
+3-STAR Coverage:
+- SureStart extended to 50 years (single-family) / 25 years (other structures)
+- Materials & Labor covered
+- NO tear-off, disposal, or workmanship coverage
+
+4-STAR Coverage:
+- SureStart extended to 50 years (single-family) / 30 years (other structures)
+- Materials, Labor, Tear-Off, Disposal covered
+- 15 years workmanship coverage
+- Fully transferable for 20 years
+
+5-STAR Coverage:
+- SureStart extended to 50 years (single-family) / 30 years (other structures)
+- Materials, Labor, Tear-Off, Disposal covered
+- 30 years WORKMANSHIP coverage (only level with extended workmanship)
+- Fully transferable for 20 years
+
+Note: XT25 with SureStart PLUS: 10yr (3-Star), 20yr (4-Star), 25yr (5-Star)
+
+=== 130MPH WIND WARRANTY UPGRADE ===
+
+Standard wind warranty: 110mph for 15 years (Lifetime products), 5 years (XT25)
+Upgrade to 130mph requires ALL of the following:
+1. NO roof-overs - shingles must be on clean deck
+2. CertainTeed hip/ridge accessories installed: Shadow Ridge, Shadow Ridge XL, Cedar Crest, Shangle Ridge, Mountain Ridge, or Landmark Solaris
+3. CertainTeed starter shingles at eaves AND rakes: Swiftstart, Swiftstart SA Rolled, High-Performance Starter, or Presidential Starter
+Florida Exception: Starter at rakes not required if code requires 8" bed of asphalt cement at rake edges AND installed per code
+
+=== LIMITED WIND WARRANTY DETAILS ===
+
+What's Covered:
+- Blow-off from unsealed sealant strips: Replacement shingles only (no labor)
+- Cold weather blow-off before strips could activate: Replacement shingles only (no labor)
+
+What's NOT Covered:
+- Shingles not fastened per CertainTeed instructions
+- Damage to persons or property from blown-off shingles
+- Labor, tear-off, metal work, flashing, disposal
+
+Maximum Liability: Reasonable cost of hand-sealing all shingles on the roof
+
+=== LIMITED ALGAE-RESISTANT WARRANTY ===
+
+Coverage Period (AR shingles only):
+- 30 years: LifetimeA products with CT AR hip/ridge accessories
+- 25 years: LifetimeB products (except Patriot) with CT AR hip/ridge accessories
+- 10 years: Any AR shingle WITHOUT CT AR hip/ridge, or Patriot/Patriot XL (max 10yr regardless)
+
+Proration begins at:
+- 10 years for 25-year coverage
+- 15 years for 30-year coverage
+
+Coverage: CertainTeed pays to clean or replace shingles affected by blue-green algae (Gloeocapsa magma)
+- Only covers blue-green algae appearing as black/brown streaks
+- Does NOT cover moss, lichens, or other algae types
+
+WARNING - AR Shingles with Aluminum Gutters:
+In low-rainfall or salt fog areas (e.g., Southern California coast), copper from AR granules can severely corrode aluminum gutters. Use vinyl or copper gutters instead.
+
+=== WARRANTY TRANSFERABILITY ===
+
+- Transferable ONCE only (original owner to first subsequent owner)
+- Bank foreclosure or deed change counts as transfer
+
+Transfer During SureStart:
+- New owner gets remaining SureStart period
+- LifetimeA products: Warranty becomes 50 years (from installation date)
+- LifetimeB products: Warranty becomes 40 years (from installation date)
+
+Transfer After SureStart:
+- Warranty limited to 2 YEARS from transfer date
+- Prorated as "Beyond SureStart"
+
+Algae Warranty Transfer:
+- During SureStart: Remaining algae warranty period continues
+- After SureStart: Algae coverage is lesser of remaining period OR 2 years
+
+=== WARRANTY LIMITATIONS (What's NOT Covered) ===
+
+- Wind/gusts greater than Table 1 limits
+- Lightning, hail, earthquake, fire, explosion, flood, falling objects
+- Tornado, hurricane damage (beyond wind warranty limits)
+- Deck/foundation movement, distortion, cracking
+- Structural changes, equipment installation after original shingles applied
+- Algae (other than blue-green), fungus, moss, lichens, mold, mildew
+- Misuse, abuse, neglect, improper transportation/handling/storage
+- Non-approved roof decks
+- Damage caused by improper installation (but manufacturing defects still covered)
+- Ice backup or ice damming damage
+- Impact damage (tools, equipment, foot traffic)
+- Vandalism, acts of war
+- Animals, animal feces, insects
+
+=== WARRANTY CLAIMS ===
+
+To File a Claim:
+- Notify CertainTeed within 30 days of discovery
+- Provide: Proof of ownership, date of purchase, date of application
+- Without proof of purchase, CertainTeed may use manufacturing date for calculation
+- May require: Shingle sample, photos, site inspection
+
+Contact:
+- Phone: 800-345-1145
+- Email: rpg.t.services@saint-gobain.com
+- Mail: CertainTeed LLC, 805 West 5th Street, Suite #7, Lansdale, PA 19446
+- Website: ctroof.com
+
+Claims >12 months old: Call 800-345-1145 or ctroof.com
+Claims <12 months old: Contact local Territory Manager through dealer/distributor
+
+Registration: Optional but recommended at certainteed.com/warrantyreg
+- NOT registering does NOT void warranty
 
 SLOPES (MSA): Low (2/12 to <4/12), Standard (4/12 to 21/12), Steep (>21/12)
 
