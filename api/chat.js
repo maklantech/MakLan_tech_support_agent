@@ -15,7 +15,7 @@ SOURCE_REFS_START
 SOURCE_REFS_END
 
 Where:
-- source_id: chapter number (1-17), "warranty", "tds-landmark", "tds-belmont", "tds-carriage"
+- source_id: chapter number (1-17), "warranty", "tds-landmark", "tds-belmont", "tds-carriage", "tds-climateflex", "tds-vycor", "tds-vycor-ht", "tds-vycor-select", "tds-vycor-ultra"
 - source_title: descriptive title of the section
 - quoted_text: the EXACT relevant text from the source (1-3 sentences that directly support your answer)
 
@@ -79,6 +79,95 @@ Wind Resistance: 110 mph normal, 130 mph with special installation
 Special Application: Can be blended into Grand Manor roof for unique appearance
 Hip/Ridge: Shangle Ridge ONLY (matching color)
 Warranty: Lifetime limited transferable, up to 10-year SureStart, 30-year algae resistance (with CT Hip & Ridge)
+
+LANDMARK CLIMATEFLEX TDS:
+Product Type: Polymer modified asphalt shingle (enhanced flexibility and durability)
+Product Specifications:
+- Weight: 229 lb/sq
+- Dimensions: 13¼" x 38¾"
+- Shingles/Square: 66
+- Weather Exposure: 5⅝"
+- Impact Resistance: UL 2218 Class 4
+- Features NailTrak nailing guide
+Standards: ASTM D3018 Type I, ASTM D3462, ASTM E108 Class A Fire, ASTM D3161 Class F Wind, ASTM D7158 Class H Wind, UL 790 Class A Fire, UL 2218 Class 4 Impact, Meets TDI Windstorm Requirements
+Limitations: Slopes ≥2/12; Low slope (2:12 to <4:12) requires additional underlayment
+Hip/Ridge: Shadow Ridge ClimateFlex ONLY (matching color)
+AR Version: Algae-resistant version available with protection against blue-green algae staining
+Warranty: Lifetime limited transferable, 10-year SureStart, 10-year algae resistance (AR version)
+
+=== VYCOR UNDERLAYMENT PRODUCT LINE ===
+
+VYCOR ICE & WATER SHIELD TDS (Original/Standard):
+Product Type: Self-adhered roofing underlayment (rubberized asphalt + cross-laminated polyethylene film)
+Description: The original, best-in-class self-adhered underlayment with 47+ year track record
+Roll Sizes: 225 ft² (75ft x 36in), 200 ft² (66.6ft x 36in), 108 ft² (36ft x 36in)
+Roll Weights: 61.4 lbs, 55 lbs, 33.6 lbs respectively
+Thickness: 40 mil (1.02 mm)
+Application Temperature: 40°F (5°C) or higher for membrane AND roof covering
+Laps: Side laps minimum 3.5" (90mm), End laps minimum 6" (150mm)
+Max Exposure: 90 days before covering
+Features: RIPCORD split-release, slip-resistant embossed surface, seals around fasteners, reroofable
+Standards: ASTM D1970, AC 48, ICC ESR-1677, FL-298 (incl. HVHZ), Miami-Dade Approved, UL Class A Fire (fiberglass shingles)
+Compatibility: NOT compatible with EPDM, TPO, polysulfides, flexible PVC, or high-resin wood plank
+Use For: Ice dam protection, wind-driven rain, valleys, skylights, chimneys, protrusions
+Desert Restriction: Certain applications prohibited in hot desert areas of southwestern US
+
+VYCOR ICE & WATER SHIELD HT TDS (High Temperature):
+Product Type: High-temperature self-adhered underlayment (rubberized asphalt + polymeric film with UV barrier)
+Description: Designed for high-temperature applications including metal roofs
+Temperature Rating: Up to 260°F (127°C)
+Roll Sizes: 225 ft² (75ft x 36in), 200 ft² (66.6ft x 36in)
+Roll Weights: 61.4 lbs, 56 lbs respectively
+Thickness: 40 mil (1.02 mm)
+Application Temperature: 40°F (5°C) or higher
+Laps: Side laps minimum 3.5" (90mm), End laps minimum 6" (150mm)
+Max Exposure: 120 days before covering
+Features: RIPCORD split-release, slip-resistant embossed surface, includes recycled ground rubber tires
+Standards: ASTM D1970, AC 48, AC 188, FL-298 (incl. HVHZ), TDI Listed
+Compatibility: NOT compatible with EPDM, TPO, polysulfides, flexible PVC
+Use For: Standing seam metal, slate, tile, cedar shakes, high-temperature applications
+RESTRICTION: Do NOT use under copper, COR-TEN, or zinc metal at high altitudes - use VYCOR ULTRA instead
+
+VYCOR SELECT TDS (Lightweight Economy):
+Product Type: Lightweight self-adhered underlayment (advanced rubberized asphalt formulation)
+Description: Performance alternative to granular surfaced underlayments - thinner and lighter
+Roll Size: 195 ft² (65ft x 36in)
+Roll Weight: 32 lbs
+Thickness: 25 mil (0.64 mm) - lightest in Vycor line
+Application Temperature: 40°F (5°C) or higher
+Laps: Side laps minimum 3.5" (90mm), End laps minimum 6" (150mm)
+Max Exposure: 90 days before covering
+Features: RIPCORD split-release, slip-resistant surface, reroofable, easy to handle
+Standards: AC 48, AC 188, ICC ESR-5149, TDI Listed
+Compatibility: NOT compatible with EPDM, TPO, polysulfides, flexible PVC
+Use For: Ice dam protection, wind-driven rain, valleys, detail areas
+Desert Restriction: Certain applications prohibited in hot desert areas of southwestern US
+
+VYCOR ULTRA TDS (Extreme Temperature/Butyl):
+Product Type: Butyl rubber underlayment (100% butyl adhesive + cross-laminated polyethylene film)
+Description: Extreme temperature underlayment - highest heat resistance in the line
+Temperature Rating: Up to 300°F (149°C) - HIGHEST in Vycor line
+Roll Size: 198 ft² (70ft x 34in) - Note: 34" width, not 36"
+Roll Weight: 42 lbs
+Thickness: 30 mil (0.76 mm)
+Application Temperature: 40°F (5°C) or higher
+Laps: Side laps minimum 3.5" (90mm), End laps minimum 6" (150mm)
+Max Exposure: 120 days before covering
+Adhesive: 100% Butyl Rubber - Contains NO asphalt
+Features: Plastic release liner, compatible with EPDM and TPO
+Standards: AC 48, AC 188, ICC ESR-4858, TDI Listed
+Compatibility: COMPATIBLE with EPDM and TPO (use for tie-ins); NOT compatible with polysulfides, flexible PVC, high-resin wood plank
+Use For: Copper roofing, zinc roofing, COR-TEN metal, high-altitude metal roofs, EPDM/TPO tie-ins, extreme temperature applications
+BEST CHOICE FOR: Metal roofs at high altitudes, copper/zinc/COR-TEN panels
+
+=== VYCOR PRODUCT SELECTION GUIDE ===
+- Standard shingle roofs: VYCOR ICE & WATER SHIELD (original)
+- Budget-conscious/lightweight: VYCOR SELECT
+- Metal roofs (general): VYCOR ICE & WATER SHIELD HT (up to 260°F)
+- Copper/Zinc/COR-TEN metal at altitude: VYCOR ULTRA (up to 300°F)
+- EPDM or TPO tie-ins: VYCOR ULTRA (only compatible option)
+- All products require 40°F minimum application temperature
+- All products are vapor barriers - ensure proper ventilation
 
 === END TDS ===
 
